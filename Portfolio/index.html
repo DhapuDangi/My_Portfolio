@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7a0bdbd7d6.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <div class="logo"><span>D</span>hapu...</div>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a>
+                    <li><a href="#about">About</a>
+                    <li><a href="#services">Projects</a>
+                    <li><a href="#portfolio">Certifications</a>
+                    <li><a href="#contact">Contact Me</a>
+                        <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+        </div>
+           <div class="head">
+            <div class="header-text" id="text">
+                <p><span>FULL  STACK  WEB  DEVELOPER</span></p>
+                <h1>Hi, I'm <span>Dhapu </span><br>Dangi</h1>
+            
+            <p>I have completed my Bachelor's degree
+                in Computer Science and Engineering <br>
+                from Indore Institute of Science and Technology, Indore [2021-25]</p>
+                <a href="image/DhapuResume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+
+            <div class="header-text" id="image">
+                <img src="image/background.jpg">
+            </div>
+        </div>
+    </div>
+    </div>   
+</div>
+</div>
+
+<!------------about------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/user.jpg">
+                </div>
+                <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                
+                <p>I'm Dhapu Dangi, <br>
+                      As a passionate and dedicated Full Stack Developer, I am proficient
+                      in Java, C++, and Spring Boot, with hands-on experience in designing
+                      and implementing end-to-end web solutions.
+                      My dedication to continuous learning and problem-solving. 
+                      Ready to embark on the next chapter of excellence in Web Application development.</p>
+                    
+                     <div class="tab-title ">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <!-- <p class="tab-links" onclick="opentab('experience')">Experience</p> -->
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programming Languages:</span><br> C , C++ , Java</li>
+                            <li><span>Frameworks:</span><br>Spring Boot, Spring MVC, JSP, Servlet</li>
+                            <li><span>Databases Management:</span><br> MySQL</li>
+                            <li><span>Web technologies:</span><br> HTML , CSS , JavaScript , BootStrap</li>
+                            <li><span>Tools:</span><br>Eclipse, NetBeans, VSCode, IntelliJ, Git, GitHub</li>
+                            <li><span>Area of Interest:</span><br> Full-Stack Web Development, REST API Development, Backend Services</li>
+                          
+                        </ul>
+                    </div>
+                    
+                    <div class="tab-contents active-tab" id="education">
+                        <ul>
+                            <li><span>Bachelor Of Technology (CSE)</span><br>Indore Institute Of Science And Technology (2021 -2025)<br>Current CGPA:- 8.6</li>
+                            <li><span>Higher Secondary Education [MPBoard]</span><br>Pragya Public Higher Secondary School, MachalPur (2021), Grade : 93% </li>
+                            <li><span>Secondary Education [MPBoard]</span><br>Mahatma Gandhi Memorial High School, MachalPur (2019) ,Grade :92% </li>
+                        </ul>
+                    </div>
+            </div>
+</div>
+        </div>
+    </div>
+    </div>
+
+   <!---------------------------Services---------------->
+   <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="project-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Online Examination System</h2>
+                <p>Developed a web-application using JSP and Servlet<br> 
+                   Integrated features such as automated grading, analytics, and customizable exam settings to enhance functionality and flexibility.<br>
+                   Security features prevention in cheating in exam and user-friendly interface<br>
+                   Utilized MySQL for data storage<br>
+                </p>
+                <h3>Tech Stack:- Java, JSP, Servlets, HTML, CSS, JavaScript, MySQL</h3>
+                <a href="https://github.com/1235chandani1235/online-examination-portal">GitHub-repository</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>Train Allocation System</h2>
+                <p>Created a Train Allocation System that assigns trains along with bogie numbers and 
+                    seat allocations. The system streamlines the management of
+                     train schedules and passenger seating in an organized manner.<br>
+                    <br>
+                </p>
+                <h3>Tech Stack:- Java, Spring MVC,Servlets,Jsp, HTML, CSS, JavaScript</h3>
+
+                <a href="https://github.com/1235chandani1235/weatherReport">GitHub-repository</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>ATM Simulator System</h2>
+                <p>Built a user-friendly ATM Simulator using Java Swing and MySQL, 
+                    enabling secure login, balance checks, 
+                    and transactions through a connected database.
+                </p>
+                <h3>Tech Stack:- Java,Java Swing, JPA, MySQL</h3>
+                <a href="https://github.com/1235chandani1235/spring-boot-demo-app">GitHub-repository</a>
+            </div>
+
+            
+        </div>
+    </div>
+   </div>
+
+   <!-- ----------------portfolio-------------- -->
+   <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Certifications</h1>
+        <div class="certlist">
+            <div class="cert">
+                <img src="image/internship.png">
+            </div>
+            
+            <div class="cert">
+                <img src="image/NPTEL.png">
+            </div>
+            <div class="cert">
+                <img src="image/C.png">
+            </div>
+            <div class="cert">
+                <img src="image/DBMS.png">
+            </div>
+          
+            <div class="cert">
+                <img src="image/java.png">
+            </div>
+            <div class="cert">
+                <img src="image/sql.png">
+            </div>
+            <div class="cert">
+                <img src="image/Hackathon.png">
+            </div>
+           
+            <div class="cert">
+                <img src="image/Web.png">
+            </div>
+            <div class="cert">
+                <img src="image/Aws.png">
+            </div>
+        </div>
+    </div>
+   </div>
+
+   <!-- --------------contact------------ -->
+  <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>dhapudangibrahmangaon@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>+91 9340638483</p>
+                <p>
+                 <i class="fab fa-linkedin">
+                    <a href="https://www.linkedin.com/in/dhapu-dangi-8b8b60247/">linkedin</a>
+                    
+                 </i> 
+                
+                    
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet" >
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Mesaage"></textarea>
+                    <button type="submit" class="btn btn2"  onclick="myFunction()">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+  </div>
+
+    <script>
+var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+
+function opentab(tabname){
+    for(tablink of tablinks)
+    {
+        tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents)
+    {
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+
+
+}
+    </script>
+    <script>
+          var sidemenu = document.getElementById("sidemenu");
+          function openmenu()
+          {
+            sidemenu.style.right = "0";
+          }
+          function closemenu()
+          {
+            sidemenu.style.right = "-200px";
+          }
+
+    </script>
+    <script>
+        const scriptURL = 'https://sheetdb.io/api/v1/k1ziwj9fmg5h5'
+        const form = document.forms['submit-to-google-sheet']
+         const msg =document.getElementById("msg")
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="Message sent successfully"
+                setTimeout(function(){
+                
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+   
+</body>
+</html>
